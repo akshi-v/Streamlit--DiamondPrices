@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 
 # Load the model from the pickle file
-model = pickle.load(open('diamond_pred.pkl', 'rb'))
+model = pickle.load(open('decisiontree.pkl', 'rb'))
 # Define the unique values for 'cut', 'color', and 'clarity'
 cut_values = ['Ideal', 'Premium', 'Good', 'Very Good', 'Fair']
 color_values = ['E', 'I', 'J', 'H', 'F', 'G', 'D']
